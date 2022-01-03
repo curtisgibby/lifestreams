@@ -7,31 +7,37 @@ const streams = [
             {
                 "startDate": "2003-07-19",
                 "endDate": null,
-                "label": "Marriage"
+                "imageUrl": "https://lh3.googleusercontent.com/c3SzuUr7e5b_p0OHpLw4EXZrSHrHjs55WxVi4CNfouLtqHYYMb3MgiU2Qj-PRgW9usVp8bBqQxbJIOsfYDbHOZ2QqxC758IR4aMaA5LmL_NF3okocq3X0FcWwS7j5zRo8jFM7pce5UInDq-LlzroxLSxcKYc_5Nr9kCPNd6Iy2TmPaz1P6CStBn9V1MHglcoX3tH6h7MM2dIJVsKjonpVJLAUPcvfrf3EBM1ehpSLngoIqnGw8Mpg8lpF5WSw9dyfcerALrbf-NYXapA8TgHxEPdMc_-7M5K5IWiBzYGrC00ZGfeO4R2pPdc2IxahCPCLnBNvqGuAu-Boy0488DSHZQPmRpqtPpWe3kl_0GptJPXz8wCrZldgdfafdMCRo82kxka9pZlwkwGO21jEKfvZWay5P-VVkOM7f9ymfaRHGkGqEv7wyLd5cKRzal7gLX1rQgitNAVqNjukGLLsZGMs5uMarLkzYyb6da1BUy1IkAxwdMEVnfFxtPB4b_Rf2eH7a0NVKySUdet8VJeaDPJux5IlHGh7_GWq1aAExLKWuURIw0S7VdKoynN5NuIlvuFWftnAxxJILZSVSvG6McsEuEcfzcD_IszogWUv3picBJwKj2qZ8B9Leif0AACVfkZgv3Bsmq86Bpxgw7Dkxag3JNKlZa27SE6qTQq5WUp23FXu9NVFbCvzeco0piPZY_IkJbETfXDvWczUSPcFmTUgd10=h200",
+                "label": "Marriage to Sarah"
             },
             {
                 "startDate": "2005-07-12",
                 "endDate": null,
+                "imageUrl": "https://lh3.googleusercontent.com/GnsHRvSuAONnJEMDlysxTadWsnomLiOQ5A6GhJ3ru-pIFO1p9wM1Wa5Tw2w9JP5fP4b34Y7EBL6nAOPZSyKqdlhhfPO-xO1KlytccuK9BgaPLrJQ5KtOQulta1846JjS5BhipJu-279lyFH0qEjVRYa3UkqOu4w7AgeidSXzlRjGAfvG7RnR6EBSnZNw2J2Yvnn6OkVvewybIVEbWkUrppQfbLnDCQBcPzOf85-4fCHnMbv3QxlnVx6odRDZZFWhwGkFnWjPILyAzZmzhr2HKtSUHK3cg5vMV1q5-u8nB8hJfzqnBPGArQNx8V0cccozda8inh7O1Rm2_xUtAVFCnmsXy2SkANMLpMWKfRpbmvi34eF6UiWvyIJlBISL9dVUQ9Z9KM1LIjikSIto8j-H-Je1qxW2L8C2vqdqzn5GAMiV3uefcTNZLtAYhTpkaqu1dUvG-VYfKP51xqwK16f4I9OpHuN7889whObKj_138_VriGC3kMXfR3KBSsCG3wwLgZ14NuzoBLb3BtUOR5B47rknDYvrQldRNQLoqcXf-tjXFCqGjNuiRwOcm5UjDog48NiagGihgxtFajc7sbgJZyf_XALnkl8qLXWbY-pYLe2Z5-3VikZkqVBRy7W0eQT4nD2_9PW36wJdJ2v-RpqqBimHEAmgXOWywKHK5Q1bXWz0MOAG1fNXOwONGsqONoFWogEXOq3nX3Ozcpd3mFaXXcwh=h200",
                 "label": "Atlas"
             },
             {
                 "startDate": "2008-01-21",
                 "endDate": null,
+                "imageUrl": "https://lh3.googleusercontent.com/1ogy2dO3kjrA6jqdIQmLPS57zBuREGXIFNYMS5qLP_1Jtatq0z9utEu4H55mLCvUeCmoYMp5ZOzJKsL5t1z2dyTJzuPLRT-kyJeBkVKAcbRPiMgEDlvCdYSuLX-VwOBVUtoZ5AZEkGe3ENtaVW2XqLrapZmaGTeHDQTYATRvajMgjF-t-diyiOmYYdlcI9okh4UtzG5g_vW44NgPmVclrCog1vdjNsfoWuEEYc6Rq4KDnuvps4WK0uyqogni2Ef0yp4PSgvNd88KjnKnxJAmyt3P0rUruS3tBWwXnQ1PdJnxD-8IjZWD73chPx-4OOdlIuS-pczWG6htfu-eCNNxvWXN1MhldAqifAB1_-lwUfVggmXysZofKaCVyoUdkZp1GuoSwqFaBAemFc4u1ImmYT0zZ57neO3fyhYE9aEklfvCISPYjlw8UPhqZA8nIrPhI9o9esB_lxmTXwmoBUHH-FO5QAtSab-RNqyvwkA4i0TcsyYy-jT7phPQOuwT3jpUdM8rGwOCffFpKMaDT4dS2WyPg2im4fy-DKypciTUupL_8GxYzgXT18eShrRvwtHIoFuKMsmJYR6uUrDRBzmgDjYYizIv3iQKWwCWM2JEopltKKE0jY5GOSiF1EUaDBKBD8ZqZZHpYFjeZi60YzMqgfPOZxKdIhw4q1zO3GyvnuJbkhh1bnoBA95KZ592WaMXFi9ODlmJuL3-lCoZK-UVB6bn=h200",
                 "label": "Nathan"
             },
             {
                 "startDate": "2010-09-13",
                 "endDate": null,
+                "imageUrl": "https://lh3.googleusercontent.com/pa3rmUlIgc7WZzYxlzHVSy4Qk8j3L9sKEmhjHDmsV6ACh3_IydkehS3YBUFNCUYOxj3TJfzEiuhBYzqI1vdsUeaL5a_HhJf8ogEimUygvrCD7HksNtYqkKT_Ky9POkLHiM8tuZ5erYOQzAJs6lkdG0wgaFc8QdI8pA8QvjlwknhG0CaEiElI_uExbehHGCYroG9AtBS8CfK8zvbfbdEizVXWpwlcJ8M8nbTC_iScxO6DgcYDG5vkxuQQ56iCTdHjRacc1WFNEY81SQgpazlDRu8Fa_c_i4ca95raC3wzxpO5XcocqJt3TeDQCiW5aCjdBeavAJ8D07uFkwA1kKC9igXuW7aul9gi0cYkTX-m1cGs_3jCRppdDxM01uJJY37sqQUvup2MnKqFapvyx92fMGur-qixmhrefNyh9iWG7xM75SyPcYQ7u3-wpD9OGFjf5lAbYl21h0xT4FKmZ4bxubnb9WQj-CXifHdqowh6kaZyneB0VsxiDb8fMWFeYYDcb5nF7C0E_bVY4PXsAYExva5C4BR86FrzBQnTuzcjegwfI3iC-pUXJ15B05gQN9NZ6Gl5wamF7jbuRuWCkfkgVmQg2qgaM172A6R4DnviD8NNqnJ2yWCv7HWG_cNLrar1g75KUu1GN1mgLHUf0JZ8ImtsiJbrMCssnuxF-n7IyG2ayUi3ucn57mjUW4q2L2iARNrO99PREXugz_vka30u3elG=h200",
                 "label": "Claire"
             },
             {
                 "startDate": "2012-06-01",
                 "endDate": null,
+                "imageUrl": "https://lh3.googleusercontent.com/XI2QN2XkszioY-2UDeFR8mRiRude6xZFZVmqWwOrxLmQc410JCAGqYyN7TFqOd15O8i9-8esZcUY-1dVOmS0LpGqXD4smFtOM0av31B_Ndn9nDs0hR1BBiqpFv2SG3enGv5jZS1QgCV8SvurwkXP0at3knJY1m0HJ53C1nz6Nsyc-bLgEJolnwBhfSMm46c9gw3oS30GrU8dOGs0oWMmryA7vz4NN34ZErYl8xVzLoU3aNaPOetYLq1-Q32QR5LEk1mnWOYOJx5Pr0ZW0UVOLeyZBLSkWPw7XqG0OTcI-LuCzIZoYJVwRciL66ty_gnUudaNmGDLX5-vo6CWayX1eVMYjQ7ZCEJYcc53LH8nShdb-GlsEU0yKIpWCwyKlXjAkMhFQZ5dmaeufzthGmLvTbwJr-AAHVb6YHGdl-lV7zJEkjfIQ_Vo5n1six8osYf7sln-FbxdmnsbEPRQrRMFNnRls9oJoE8Q8Fc0qjREuMFrSW0y-KzSft7tLC1zORrXLoKlk8w5cZMdC5jMGMxAFmrIfsYHZ89odTTOP5VRIM3bTmxDECoUTCrKJTALMHzPc7pma2NiH1GeH5N21_AMR3lCPOiCcvnFySlB-LRj8Hr4tR7tqYVnMEnIzABnK2t1i4yt3yIlI9w1R_XK9MEnq1_8qcd5LY8L-EymeSbW6LI8WRKkWE7KGfnAZwqAQ32Mij6OHAIyOItpLCpeAp5_zLlt=h200",
                 "label": "Benjamin"
             },
             {
                 "startDate": "2015-04-09",
                 "endDate": null,
+                "imageUrl": "https://lh3.googleusercontent.com/4LHPtDN0PMWq40rlw7wcepeyIeV1fpjLknGnwovlSxwRerAu-zCBwgjhg3Em_sNTOApxuguSGuiBJG-3vi0hoRjw0Aa99gMlleFbWYCqnOVMsq17m5ow73oIGAYU0qJcrz7g6TLPRRNr5WcKsdHPkCGY2h0rg94DWThsbplQsk8kInEgw4scPriTedFHcr8Earz1zFvjDh6Ewgel1ji8x8fN--6jGxp_aFvuUSiwvc8Gfk9RTd0azocpITx6FHn1ucOJDi7bBH4TRF43kSo5JYcO2NGiCRHEKHTYIChYGcF4OddTT63mJ3Lb1L3krWKqNUGEkBkLph-faqRz2S5vR9ZL_YP6nP5yd63pGynKnUCBfo05rxsUmlssuywiMnM0aZrBt4xGGJddr3RuSjBKuFd01R1RwehJ1Ofi1oS9utfTdJygUzsvBfXW4XkjfRyUgDrwPFa1sF2z7--aSQztNJWtEBw1Qcm7VFtUxQtMhYSihpYBcRogfgeD6PMI5z5tAf1HQl7tf74IACAe50hTtQN44YUYEdk4pEpgvH0hiUDE2m5XdRrFB99I18gz4vskBh7HRsCtLIhzYrdZLKpKmHqYKoCzh_qzd09oghA9I_NfkSk-CSbnFKpJlULq7Md76epMv3RaKUbsKiXjqORpniG5Pa97-IZj3abbrTyZCEf2u5Gk87R8liyM7Lrv1xSLtQwQvwcPjoATmsuzll4Vde_N=h200",
                 "label": "Joseph"
             }
         ]
@@ -75,60 +81,69 @@ const streams = [
                 "startDate": "1999-08-15",
                 "endDate": "2000-04-30",
                 "label": "Tri Connections",
-                    "color": "#0000dd"
+                "color": "#0000dd"
             },
             {
                 "startDate": "2000-05-10",
                 "endDate": "2002-04-25",
                 "label": "Mission Venezuela Maracaibo",
-                    "color": "#ffa300"
+                "imageUrl": "https://www.mission.net/venezuela/maracaibo/images/banner.jpg",
+                "color": "#ffa300"
             },
             {
                 "startDate": "2002-05-21",
                 "endDate": "2002-06-22",
                 "label": "Deseret Industries",
+                "imageUrl": "https://www.deseretindustries.org/static/images/logo.svg",
                 "color": "#113d6f"
             },
             {
                 "startDate": "2002-09-01",
                 "endDate": "2003-04-25",
                 "label": "BYU Newsnet",
+                "imageUrl": "https://web.archive.org/web/20021219150709im_/http://newsnet.byu.edu/img/head/head_home.gif",
                 "color": "#020261"
             },
             {
                 "startDate": "2003-04-28",
                 "endDate": "2003-06-20",
                 "label": "Espacio de Vinculación / Televisa",
+                "imageUrl": "https://web.archive.org/web/20030728003348im_/http://i.esmas.com/img/tel_logo_televisa.jpg",
                 "color": "#ff6600"
             },
             {
                 "startDate": "2003-08-12",
                 "endDate": "2008-10-19",
                 "label": "ABC 4 News",
+                "imageUrl": "https://web.archive.org/web/20080315134058im_/http://www.abc4.com/sites/ktvx/images/mast_01.jpg",
                 "color": "#e22021"
             },
             {
                 "startDate": "2008-10-19",
                 "endDate": "2009-11-22",
                 "label": "Rocky Mountain Printing",
+                "imageUrl": "https://web.archive.org/web/20070906233134im_/http://rockymountainprinting.com/_assets/images/logo.gif",
                 "color": "#0A0A09"
             },
             {
                 "startDate": "2009-11-22",
                 "endDate": "2010-02-05",
                 "label": "Marketecture",
+                "imageUrl": "https://pbs.twimg.com/profile_images/550065811256115200/TMYCWzmI_200x200.png",
                 "color": "#3B78CE"
             },
             {
                 "startDate": "2010-02-16",
                 "endDate": "2021-03-23",
                 "label": "Sound Concepts / Verb",
+                "imageUrl": "https://web.archive.org/web/20141225120523im_/http://soundconcepts.com/img/logo.png",
                 "color": "#f6303e"
             },
             {
                 "startDate": "2021-03-26",
                 "endDate": null,
                 "label": "Bamboo HR",
+                "imageUrl": "https://web.archive.org/web/20200421225828im_/https://www.bamboohr.com/images/about/media-assets/bamboohr-logo-green.svg",
                 "color": "#73c41d"
             },
         ]
@@ -142,42 +157,49 @@ const streams = [
                 "startDate": "1981-05-03",
                 "endDate": "1995-07-23",
                 "label": "1140 E 1250 N. Layton, UT",
+                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=1140+E+1250+N%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=eF-VZp06QLXTuupnQrvmiBRfWUk=",
                 "color": "#c79276"
             },
             {
                 "startDate": "1995-07-23",
                 "endDate": "1998-08-21",
                 "label": "2408 Country Oaks Dr, Layton, UT",
+                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
                 "startDate": "1998-08-21",
                 "endDate": "1999-04-30",
                 "label": "BYU (Helaman Halls)",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/BYU_HLG.jpg/200px-BYU_HLG.jpg",
                 "color": "#002D5F"
             },
             {
                 "startDate": "1999-04-30",
                 "endDate": "1999-08-21",
                 "label": "2408 Country Oaks Dr, Layton, UT",
+                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
                 "startDate": "1999-08-21",
                 "endDate": "2000-04-30",
-                "label": "BYU (Helaman Halls)",
+                "label": "BYU (Helaman Halls - Budge)",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/BYU_HLG.jpg/200px-BYU_HLG.jpg",
                 "color": "#002D5F"
             },
             {
                 "startDate": "2000-04-30",
                 "endDate": "2000-05-10",
                 "label": "2408 Country Oaks Dr, Layton, UT",
+                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
                 "startDate": "2000-05-10",
                 "endDate": "2000-07-11",
                 "label": "MTC",
+                "imageUrl": "https://www.churchofjesuschrist.org/bc/content/ldsorg/church/news/2019/05/28/580_demolition-of-5-old-provo-mtc-buildings-to-make-way-for-more_3.jpg",
                 "color": "#dd0000"
             },
             {
@@ -256,18 +278,21 @@ const streams = [
                 "startDate": "2004-11-11",
                 "endDate": "2009-02-28",
                 "label": "5130 Park Springs Drive, West Valley City, Utah",
+                "imageUrl": "https://lh3.googleusercontent.com/EdRPfw2NzdJZHSFenRde-CFjHR8rxAZXT-FR76B-ls-SKcYY7OEBq9GoZaoEegGGlMmwfM8EXYTyVz4tk3GPMlWdnSxeMQkTfvLAOR9nPo1jjSK8BIJFA7YzcYjJVfZtDjb4eE-ucPFYqqkumakhfxCxQyAAuyQj8Zc6Hcsz7aY-BkQdgcbwrIQVUj1Y6BtMigbIqz-DzciMpQOZoqtcvRT6Fe09dxEUkreEZvJRYDO1GGNyKCKZg1-wcFV0KjoQf3gL3MTpi08slI4wpANJpPOzgN08PD7nrYFexFXNR8Lnc0qOe9kCN9VtSneQHmiUtEE6XKalgWEyDjUkk7Yf9uRckQg7YH_FeD9NjPWS7K6_wNeQu0DDSKLoSt3eaSZ25fEXm1_p0TwFDXhYyIHtn_YB-X9XtyxK00ScevFBu2hKHiGFgk4gFTvd_b4VNhOndCSvN4Un58MZdWs30Wcjn8ruBRl2-uuxV4skyspj8vk32M49Mb-ONsWVxGlbTGAg9uNtpCF5ptOLAn9iIdGp-HoLF6NwEl45TUz_qyrHC9qaJJG_WYTO2Qfgiat3fJ2pwohGqzWPtEInBZBM-e5KGOoIqTn8LGIyQJHs4yH7CAZECW0dJ-Hd5ROVVQ6yej3U0GZ2iwdUaVT0a-XVLdTseLcPzXs3EGSjNBk_ZpxPVq0RePlBFo_RjoTSOuk1Co-sYpT-OHmfyiGrfrBVisgc8yL8=w200",
                 "color": "#1ee610"
             },
             {
                 "startDate": "2009-02-28",
                 "endDate": "2016-05-25",
                 "label": "431 W 380 S, American Fork, Utah",
+                "imageUrl": "https://lh3.googleusercontent.com/CsfjsISjDrvcGyJ5ntAWLqT5V5i8fMATtH3qZ1KAAX4Dh3_XDDeIQWacLvNw_v2k7xSPAmTy0JXu_alSadWWQLA34mvZ6Pzd0boH_9oQDs3ZHnDVtXQYYBiL-7am-rNUEi-_7V9IUS-TjtWrDARhEWXQUbsbv_AT8SjUo0FjwDOnIqR_k-0IZV-mx7059roUV85N1nHieKuzTrIbqikLuuL_Ne1Ol55nx-eSPDHz1SfFI-vlVOePd_ovQRIWohoPGiejLr3LUHRqMBmQC1yhehRa-o3xtUCYLInJlMqCMTNMlrbQot4nlO3KrCB5E4S0vHBFgyIqDHRz-wLOJZ5jxNa0hTceBhSG-MoLQpM-ocMuy6Z6Kx1VLLmvqxnGrjoY55EtbS2X1SdE0rfNAkyoqW38IvLiB9RXCrVdsulPe7KP0DFOmsH2jAbk132t3aF2vlj1Goe5UJDHLZrpfJ0m-C2RswHKjLPvW1j9IHcPUpJ1qRiSDfBs3Dfj2ZAzZANryt4o8hNyo2c-guzCwpchyTGVz2DoxN8URb2RZnp10sRQD4qLlE5Dr8-SVrCrYusZ9jEp14IRcp3PV0lanENZjfQ6NGGTnnBnKAVQVNBXAaZZVqf9swy1QZCHxIKpaRowKrZi1tgHG4ZeyyHqJ2VVxMngQZvlhsf1v5xnx53zVxcx0Js5XZoIuJP4DpuAXkA0aSiOPioysNXMnVnQ1Nj00IUG=w200",
                 "color": "#629ade"
             },
             {
                 "startDate": "2016-05-25",
                 "endDate": null,
                 "label": "123 W 1570 S, Lehi, Utah",
+                "imageUrl": "https://lh3.googleusercontent.com/C1Oa0D2gdqCbUpn9kYK7GqNz45FfDB1UBHTLnNvJwoswqTHE1D6ioewIa8cNjJC89Gf8hrWwCEpQDhHMwbhvWoHzvD7jrb0EeSE0MCx-wBTwrGXKPngS7lO0DJwjlOO--pLCBL8uLPdSWq1fqFQZOVIs-9f26-g79GUHQowNtxaIrqrteYmWx_Rtv6mKY-rpQSX00H6Go_AF1kD8AraINQBNV066KX025ixKUwAiXm5ZT3XSTPU7dMGCuag5HuCgGaQYgYe7AO66IbZIfdsEUQnqVYTEMzUJOZJPUErzPkcUWCUpu7-mVFNIGTLtMfzhq_D8Voc4Wi4QUdcZ8qVas_yGp-BaKkYHYz89fqv4HMhHtVXXermYk7DqaV2dpKUCyknakEZCtDV3LHMseFm6mCQ6bu-xavNjqBVZD5n5s91vDk26_lM_bHDFtHlZM8Y99YZyL5vG11pjG2ohzts919nQi_gmlhXwMoYbuJU6w9h5cOfRbf17F9XxVxZLoOwGGJtFAcDvGn3TIetqwqw1r6SXwLeoLaThF9JdNegwvUy4NyTqU8kAj3cGEQEgupgC_Mh-cq5UGMjkyIuLwS_XsL2X81ycTH_QdKQ8g2iAli7tsQyFvRpQpG9ug6liahTISb90CByXcd9iX0UTrafPahMgh2702LqtiS1w3dW6aHb4VywjNwb8fC_o927UhSas9c08Z09JV48UBUbBHuRL0CU_=w200",
                 "color": "#fffb00"
             },
         ]
