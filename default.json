@@ -267,7 +267,7 @@ const streams = [
             {
                 "startDate": "2016-05-25",
                 "endDate": null,
-                "label": "1236 W 1570 S, Lehi, Utah",
+                "label": "123 W 1570 S, Lehi, Utah",
                 "color": "#fffb00"
             },
         ]
