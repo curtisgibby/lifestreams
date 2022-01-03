@@ -7,10 +7,33 @@ const svg = d3.select('#svg1')
     .attr('height', height)
     .style('background-color', '#eee');
 
+let startDate = new Date();
+let endDate = Date.parse('1970-01-01');
+for(const stream of streams) {
+    for(const event of stream.events) {
+        if (!event.startDate) {
+            event.startDate = '1970-01-01';
+        }
+        parsedStartDate = Date.parse(event.startDate);
+        if (parsedStartDate < startDate) {
+            startDate = parsedStartDate;
+        }
+        if (!event.endDate) {
+            event.endDate = new Date().toLocaleDateString();
+        }
+        parsedEndDate = Date.parse(event.endDate);
+        if (parsedEndDate > endDate) {
+            endDate = parsedEndDate;
+        }
+    }
+}
+
 const timeScale = d3.scaleTime()
-    .domain([new Date(1981, 4, 3), new Date()])
-    .range([0, svgWidth])
-    ;
+    .domain([
+        new Date(startDate),
+        new Date(endDate)
+    ])
+    .range([0, svgWidth]);
 
 // Add scales to axis
 const xAxis = d3.axisBottom()
