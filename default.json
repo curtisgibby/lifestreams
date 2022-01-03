@@ -116,7 +116,7 @@ const streams = [
                 "endDate": "2008-10-19",
                 "label": "ABC 4 News",
                 "imageUrl": "https://web.archive.org/web/20080315134058im_/http://www.abc4.com/sites/ktvx/images/mast_01.jpg",
-                "color": "#e22021"
+                "color": "#1D23EB"
             },
             {
                 "startDate": "2008-10-19",
@@ -136,7 +136,7 @@ const streams = [
                 "startDate": "2010-02-16",
                 "endDate": "2021-03-23",
                 "label": "Sound Concepts / Verb",
-                "imageUrl": "https://web.archive.org/web/20171015201413im_/http://www.soundconcepts.com/img/logo-soundconcepts-cbs.png",
+                "imageUrl": "https://web.archive.org/web/20180607072447im_/http://www.soundconcepts.com/img/logo.png",
                 "color": "#f6303e"
             },
             {
@@ -256,7 +256,7 @@ const streams = [
                 "endDate": "2003-04-28",
                 "label": "Elms Apartments (Provo)",
                 "imageUrl": "https://www.liveherehousing.com/photos/n634.jpg",
-                "color": "#3cd1d6"
+                "color": "#f06edc"
             },
             {
                 "startDate": "2003-04-28",
@@ -275,14 +275,14 @@ const streams = [
                 "startDate": "2003-07-19",
                 "endDate": "2004-11-11",
                 "label": "4000 S Redwood Rd, #2198V, West Valley City, Utah",
-                "color": "#f06edc"
+                "color": "#3cd1d6"
             },
             {
                 "startDate": "2004-11-11",
                 "endDate": "2009-02-28",
                 "label": "5130 Park Springs Drive, West Valley City, Utah",
                 "imageUrl": "https://lh3.googleusercontent.com/EdRPfw2NzdJZHSFenRde-CFjHR8rxAZXT-FR76B-ls-SKcYY7OEBq9GoZaoEegGGlMmwfM8EXYTyVz4tk3GPMlWdnSxeMQkTfvLAOR9nPo1jjSK8BIJFA7YzcYjJVfZtDjb4eE-ucPFYqqkumakhfxCxQyAAuyQj8Zc6Hcsz7aY-BkQdgcbwrIQVUj1Y6BtMigbIqz-DzciMpQOZoqtcvRT6Fe09dxEUkreEZvJRYDO1GGNyKCKZg1-wcFV0KjoQf3gL3MTpi08slI4wpANJpPOzgN08PD7nrYFexFXNR8Lnc0qOe9kCN9VtSneQHmiUtEE6XKalgWEyDjUkk7Yf9uRckQg7YH_FeD9NjPWS7K6_wNeQu0DDSKLoSt3eaSZ25fEXm1_p0TwFDXhYyIHtn_YB-X9XtyxK00ScevFBu2hKHiGFgk4gFTvd_b4VNhOndCSvN4Un58MZdWs30Wcjn8ruBRl2-uuxV4skyspj8vk32M49Mb-ONsWVxGlbTGAg9uNtpCF5ptOLAn9iIdGp-HoLF6NwEl45TUz_qyrHC9qaJJG_WYTO2Qfgiat3fJ2pwohGqzWPtEInBZBM-e5KGOoIqTn8LGIyQJHs4yH7CAZECW0dJ-Hd5ROVVQ6yej3U0GZ2iwdUaVT0a-XVLdTseLcPzXs3EGSjNBk_ZpxPVq0RePlBFo_RjoTSOuk1Co-sYpT-OHmfyiGrfrBVisgc8yL8=w200",
-                "color": "#1ee610"
+                "color": "#D1C6B4"
             },
             {
                 "startDate": "2009-02-28",
@@ -296,7 +296,7 @@ const streams = [
                 "endDate": null,
                 "label": "126 W 1570 S, Lehi, Utah",
                 "imageUrl": "https://lh3.googleusercontent.com/C1Oa0D2gdqCbUpn9kYK7GqNz45FfDB1UBHTLnNvJwoswqTHE1D6ioewIa8cNjJC89Gf8hrWwCEpQDhHMwbhvWoHzvD7jrb0EeSE0MCx-wBTwrGXKPngS7lO0DJwjlOO--pLCBL8uLPdSWq1fqFQZOVIs-9f26-g79GUHQowNtxaIrqrteYmWx_Rtv6mKY-rpQSX00H6Go_AF1kD8AraINQBNV066KX025ixKUwAiXm5ZT3XSTPU7dMGCuag5HuCgGaQYgYe7AO66IbZIfdsEUQnqVYTEMzUJOZJPUErzPkcUWCUpu7-mVFNIGTLtMfzhq_D8Voc4Wi4QUdcZ8qVas_yGp-BaKkYHYz89fqv4HMhHtVXXermYk7DqaV2dpKUCyknakEZCtDV3LHMseFm6mCQ6bu-xavNjqBVZD5n5s91vDk26_lM_bHDFtHlZM8Y99YZyL5vG11pjG2ohzts919nQi_gmlhXwMoYbuJU6w9h5cOfRbf17F9XxVxZLoOwGGJtFAcDvGn3TIetqwqw1r6SXwLeoLaThF9JdNegwvUy4NyTqU8kAj3cGEQEgupgC_Mh-cq5UGMjkyIuLwS_XsL2X81ycTH_QdKQ8g2iAli7tsQyFvRpQpG9ug6liahTISb90CByXcd9iX0UTrafPahMgh2702LqtiS1w3dW6aHb4VywjNwb8fC_o927UhSas9c08Z09JV48UBUbBHuRL0CU_=w200",
-                "color": "#fffb00"
+                "color": "#777C82"
             },
         ]
     },
