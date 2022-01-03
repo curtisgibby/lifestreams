@@ -84,7 +84,7 @@ for(const stream of streams) {
                 }
                 tooltip.html(d.target.getAttribute('data-html'))
                     .style("visibility", "visible")
-                    .style("left", (d.clientX) + "px")
+                    .style("left", (d.clientX + 10) + "px")
                     .style("top", (d.clientY - 28) + "px");
             })
             .on("mouseout", function(d) {
