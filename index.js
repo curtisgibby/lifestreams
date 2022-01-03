@@ -12,6 +12,14 @@ const timeScale = d3.scaleTime()
     .range([0, svgWidth])
     ;
 
+// Add scales to axis
+const xAxis = d3.axisBottom()
+                .scale(timeScale);
+
+//Append group and insert axis
+svg.append("g")
+    .call(xAxis);
+
 for(const stream of streams) {
     let y = stream.index * (streamHeight + streamMargin);
     for(const event of stream.events) {
