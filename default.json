@@ -157,14 +157,12 @@ const streams = [
                 "startDate": "1981-05-03",
                 "endDate": "1995-07-23",
                 "label": "1140 E 1250 N. Layton, UT",
-                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=1140+E+1250+N%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=eF-VZp06QLXTuupnQrvmiBRfWUk=",
                 "color": "#c79276"
             },
             {
                 "startDate": "1995-07-23",
                 "endDate": "1998-08-21",
                 "label": "2408 Country Oaks Dr, Layton, UT",
-                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
@@ -178,7 +176,6 @@ const streams = [
                 "startDate": "1999-04-30",
                 "endDate": "1999-08-21",
                 "label": "2408 Country Oaks Dr, Layton, UT",
-                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
@@ -192,7 +189,6 @@ const streams = [
                 "startDate": "2000-04-30",
                 "endDate": "2000-05-10",
                 "label": "2408 Country Oaks Dr, Layton, UT",
-                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
@@ -248,7 +244,6 @@ const streams = [
                 "startDate": "2002-04-25",
                 "endDate": "2002-06-22",
                 "label": "2408 Country Oaks Dr, Layton, UT",
-                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
@@ -268,7 +263,6 @@ const streams = [
                 "startDate": "2003-06-20",
                 "endDate": "2003-07-19",
                 "label": "2408 Country Oaks Dr, Layton, UT",
-                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
