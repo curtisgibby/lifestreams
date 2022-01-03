@@ -170,7 +170,7 @@ const streams = [
             {
                 "startDate": "1998-08-21",
                 "endDate": "1999-04-30",
-                "label": "BYU (Helaman Halls - Budge 3214)",
+                "label": "Helaman Halls - Budge 3214",
                 "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/BYU_HLG.jpg/200px-BYU_HLG.jpg",
                 "color": "#002D5F"
             },
@@ -184,7 +184,7 @@ const streams = [
             {
                 "startDate": "1999-08-21",
                 "endDate": "2000-04-30",
-                "label": "BYU (Helaman Halls - Budge 3214)",
+                "label": "Helaman Halls - Budge 3214",
                 "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/BYU_HLG.jpg/200px-BYU_HLG.jpg",
                 "color": "#002D5F"
             },
