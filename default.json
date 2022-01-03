@@ -248,12 +248,14 @@ const streams = [
                 "startDate": "2002-04-25",
                 "endDate": "2002-06-22",
                 "label": "2408 Country Oaks Dr, Layton, UT",
+                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
                 "startDate": "2002-06-22",
                 "endDate": "2003-04-28",
                 "label": "Elms Apartments (Provo)",
+                "imageUrl": "https://www.liveherehousing.com/photos/n634.jpg",
                 "color": "#3cd1d6"
             },
             {
@@ -266,6 +268,7 @@ const streams = [
                 "startDate": "2003-06-20",
                 "endDate": "2003-07-19",
                 "label": "2408 Country Oaks Dr, Layton, UT",
+                "imageUrl": "https://maps.googleapis.com/maps/api/streetview?location=2408+E+Country+Oaks+Dr%2C+Layton%2C+UT+84040&size=384x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MyrBN1emnA1YSPG5qjRcz00Nh_0=",
                 "color": "#5c4231"
             },
             {
@@ -291,7 +294,7 @@ const streams = [
             {
                 "startDate": "2016-05-25",
                 "endDate": null,
-                "label": "123 W 1570 S, Lehi, Utah",
+                "label": "126 W 1570 S, Lehi, Utah",
                 "imageUrl": "https://lh3.googleusercontent.com/C1Oa0D2gdqCbUpn9kYK7GqNz45FfDB1UBHTLnNvJwoswqTHE1D6ioewIa8cNjJC89Gf8hrWwCEpQDhHMwbhvWoHzvD7jrb0EeSE0MCx-wBTwrGXKPngS7lO0DJwjlOO--pLCBL8uLPdSWq1fqFQZOVIs-9f26-g79GUHQowNtxaIrqrteYmWx_Rtv6mKY-rpQSX00H6Go_AF1kD8AraINQBNV066KX025ixKUwAiXm5ZT3XSTPU7dMGCuag5HuCgGaQYgYe7AO66IbZIfdsEUQnqVYTEMzUJOZJPUErzPkcUWCUpu7-mVFNIGTLtMfzhq_D8Voc4Wi4QUdcZ8qVas_yGp-BaKkYHYz89fqv4HMhHtVXXermYk7DqaV2dpKUCyknakEZCtDV3LHMseFm6mCQ6bu-xavNjqBVZD5n5s91vDk26_lM_bHDFtHlZM8Y99YZyL5vG11pjG2ohzts919nQi_gmlhXwMoYbuJU6w9h5cOfRbf17F9XxVxZLoOwGGJtFAcDvGn3TIetqwqw1r6SXwLeoLaThF9JdNegwvUy4NyTqU8kAj3cGEQEgupgC_Mh-cq5UGMjkyIuLwS_XsL2X81ycTH_QdKQ8g2iAli7tsQyFvRpQpG9ug6liahTISb90CByXcd9iX0UTrafPahMgh2702LqtiS1w3dW6aHb4VywjNwb8fC_o927UhSas9c08Z09JV48UBUbBHuRL0CU_=w200",
                 "color": "#fffb00"
             },
