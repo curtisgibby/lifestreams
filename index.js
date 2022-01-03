@@ -11,17 +11,13 @@ let startDate = new Date();
 let endDate = Date.parse('1970-01-01');
 for(const stream of streams) {
     for(const event of stream.events) {
-        if (!event.startDate) {
-            event.startDate = '1970-01-01';
-        }
-        event.parsedStartDate = Date.parse(event.startDate);
+        eventStartDate = event.startDate || '1970-01-01';
+        event.parsedStartDate = Date.parse(eventStartDate);
         if (event.parsedStartDate < startDate) {
             startDate = event.parsedStartDate;
         }
-        if (!event.endDate) {
-            event.endDate = new Date().toLocaleDateString();
-        }
-        event.parsedEndDate = Date.parse(event.endDate);
+        eventEndDate = event.endDate || new Date().toLocaleDateString();
+        event.parsedEndDate = Date.parse(eventEndDate);
         if (event.parsedEndDate > endDate) {
             endDate = event.parsedEndDate;
         }
