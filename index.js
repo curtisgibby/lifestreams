@@ -14,16 +14,16 @@ for(const stream of streams) {
         if (!event.startDate) {
             event.startDate = '1970-01-01';
         }
-        parsedStartDate = Date.parse(event.startDate);
-        if (parsedStartDate < startDate) {
-            startDate = parsedStartDate;
+        event.parsedStartDate = Date.parse(event.startDate);
+        if (event.parsedStartDate < startDate) {
+            startDate = event.parsedStartDate;
         }
         if (!event.endDate) {
             event.endDate = new Date().toLocaleDateString();
         }
-        parsedEndDate = Date.parse(event.endDate);
-        if (parsedEndDate > endDate) {
-            endDate = parsedEndDate;
+        event.parsedEndDate = Date.parse(event.endDate);
+        if (event.parsedEndDate > endDate) {
+            endDate = event.parsedEndDate;
         }
     }
 }
@@ -35,26 +35,21 @@ const timeScale = d3.scaleTime()
     ])
     .range([0, svgWidth]);
 
-// Add scales to axis
 const xAxis = d3.axisBottom()
                 .scale(timeScale);
 
-//Append group and insert axis
 svg.append("g")
     .call(xAxis);
 
 for(const stream of streams) {
-    let y = stream.index * (streamHeight + streamMargin);
+    const y = stream.index * (streamHeight + streamMargin);
     for(const event of stream.events) {
-        if (!event.endDate) {
-            event.endDate = new Date().toLocaleDateString();
-        }
         svg.append('line')
             .style("stroke", event.color || stream.color)
             .style("stroke-width", streamHeight)
-            .attr("x1", timeScale(Date.parse(event.startDate)))
+            .attr("x1", timeScale(new Date(event.parsedStartDate)))
             .attr("y1", y)
-            .attr("x2", timeScale(Date.parse(event.endDate)))
+            .attr("x2", timeScale(new Date(event.parsedEndDate)))
             .attr("y2", y);
     }
 }
