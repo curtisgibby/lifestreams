@@ -78,13 +78,19 @@ for(const stream of streams) {
             .attr("y2", y)
             .attr("data-html", tooltipHtml)
             .on("mouseover", function(d) {
+                if (window.t) {
+                    clearTimeout(window.t);
+                    window.t = undefined;
+                }
                 tooltip.html(d.target.getAttribute('data-html'))
                     .style("visibility", "visible")
                     .style("left", (d.clientX) + "px")
                     .style("top", (d.clientY - 28) + "px");
-                })
+            })
             .on("mouseout", function(d) {
-                tooltip.style("visibility", "hidden");
+                window.t = setTimeout(function() {
+                    tooltip.style("visibility", "hidden");
+                }, 500);
             });
         }
 }
