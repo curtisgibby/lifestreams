@@ -1,18 +1,19 @@
-const width = 1000;
-const height = 600;
+const streamMargin = 5;
+const streamHeight = 50;
+const svgWidth = window.innerWidth - 50;
+const height = (streams.length + 1) * (streamHeight + streamMargin);
 const svg = d3.select('#svg1')
-    .attr('width', width)
+    .attr('width', svgWidth)
     .attr('height', height)
     .style('background-color', '#eee');
 
 const timeScale = d3.scaleTime()
     .domain([new Date(1981, 4, 3), new Date()])
-    .range([0, width])
+    .range([0, svgWidth])
     ;
 
-const streamHeight = 50;
 for(const stream of streams) {
-    let y = stream.index * (streamHeight + 5);
+    let y = stream.index * (streamHeight + streamMargin);
     for(const event of stream.events) {
         if (!event.endDate) {
             event.endDate = new Date().toLocaleDateString();
