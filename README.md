@@ -2,6 +2,12 @@
 
 Your life in a colorful graphic
 
+![image](https://user-images.githubusercontent.com/1086964/148165127-b0a48b36-756e-4fb2-9f61-00bd45260643.png)
+
+## Example
+
+Try out the version on my website at <https://curtisgibby.com/lifestreams>
+
 ## How to Run
 
 1. Download and unzip [this file](https://github.com/curtisgibby/lifestreams.git) somewhere on your computer.
