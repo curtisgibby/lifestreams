@@ -1,6 +1,6 @@
-# lifestreams
+# Lifestreams
 
-Lifestreams - your life in a colorful graphic
+Your life in a colorful graphic
 
 ## How to Run
 
