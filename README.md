@@ -11,8 +11,8 @@ Try out the version on my website at <https://curtisgibby.com/lifestreams>
 ## How to Run
 
 1. Download and unzip [this file](https://github.com/curtisgibby/lifestreams.git) somewhere on your computer.
-2. Open the index.html file in a browser (Chrome / Firefox / Safari) -- make sure the graphic loads like on my website.
-3. Update the default.json file to include your own events and/or streams.
+2. Open the `index.html` file in a browser (Chrome / Firefox / Safari) -- make sure the graphic loads like on my website.
+3. Update the `default.json` file to include your own events and/or streams.
 4. Refresh your browser to see those changes.
 
 ## Acknowledgements
