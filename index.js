@@ -6,20 +6,31 @@ const svg = d3.select('#svg1')
     .attr('width', svgWidth)
     .attr('height', height)
     .style('background-color', '#eee');
+const locale = navigator.languages
+    ? navigator.languages[0]
+    : (navigator.language || navigator.userLanguage || 'en');
 
-let startDate = new Date();
-let endDate = Date.parse('1970-01-01');
+const minimumEventWidthDays = 3;
+const now = new Date();
+const epochStart = new Date('1970-01-01');
+let startDate = now;
+let endDate = epochStart;
+
 for(const stream of streams) {
     for(const event of stream.events) {
-        eventStartDate = event.startDate || '1970-01-01';
-        event.parsedStartDate = Date.parse(eventStartDate);
+        event.parsedStartDate = event.startDate ? new Date(event.startDate) : epochStart;
         if (event.parsedStartDate < startDate) {
             startDate = event.parsedStartDate;
         }
-        eventEndDate = event.endDate || new Date().toLocaleDateString();
-        event.parsedEndDate = Date.parse(eventEndDate);
+
+        event.parsedEndDate = event.endDate ? new Date(event.endDate) : now;
         if (event.parsedEndDate > endDate) {
             endDate = event.parsedEndDate;
+        }
+
+        // for display purposes -- to make the event have at least some width
+        if (event.endDate == event.startDate) {
+            event.parsedEndDate.setDate(event.parsedEndDate.getDate() + minimumEventWidthDays);
         }
     }
 }
@@ -58,11 +69,14 @@ for(const stream of streams) {
         if (event.startDate || event.endDate) {
             tooltipHtml += '<p><i>';
             if (event.startDate) {
-                tooltipHtml += new Date(event.startDate).toLocaleDateString();
+                // event dates are parsed above as if they were in UTC, so spit them out in UTC as well
+                tooltipHtml += event.parsedStartDate.toLocaleDateString(locale, {timeZone: 'UTC'});
             }
-            tooltipHtml += '–';
-            if (event.endDate) {
-                tooltipHtml += new Date(event.endDate).toLocaleDateString();
+            if (event.endDate != event.startDate) {
+                tooltipHtml += '–';
+            }
+            if (event.endDate && event.endDate != event.startDate) {
+                tooltipHtml += event.parsedEndDate.toLocaleDateString(locale, {timeZone: 'UTC'});
             }
             tooltipHtml += '</i></p>';
         }
