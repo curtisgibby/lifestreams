@@ -16,6 +16,36 @@ const epochStart = new Date('1970-01-01');
 let startDate = now;
 let endDate = epochStart;
 
+function calculateEventDuration(start, end) {
+    let years = end.getFullYear() - start.getFullYear();
+    let months = end.getMonth() - start.getMonth();
+    let days = end.getDate() - start.getDate();
+
+    if (days < 0) {
+        months -= 1;
+        days += new Date(end.getFullYear(), end.getMonth(), 0).getDate();
+    }
+
+    if (months < 0) {
+        years -= 1;
+        months += 12;
+    }
+
+    let duration = '';
+    if (years > 0) {
+        duration += years > 1 ? `${years} years, ` : `${years} year, `;
+    }
+    if (months > 0) {
+        duration += months > 1 ? `${months} months, ` : `${months} month, `;
+    }
+    if (days > 0) {
+        duration += days > 1 ? `${days} days` : `${days} day`;
+    }
+
+    duration = duration.replace(/,\s*$/, '');
+    return duration.trim();
+}
+
 for(const stream of streams) {
     for(const event of stream.events) {
         event.parsedStartDate = event.startDate ? new Date(event.startDate) : epochStart;
@@ -27,6 +57,8 @@ for(const stream of streams) {
         if (event.parsedEndDate > endDate) {
             endDate = event.parsedEndDate;
         }
+
+        event.duration = calculateEventDuration(event.parsedStartDate, event.parsedEndDate);
 
         // for display purposes -- to make the event have at least some width
         if (event.endDate == event.startDate) {
@@ -77,6 +109,9 @@ for(const stream of streams) {
             }
             if (event.endDate && event.endDate != event.startDate) {
                 tooltipHtml += event.parsedEndDate.toLocaleDateString(locale, {timeZone: 'UTC'});
+            }
+            if (event.duration != '') {
+                tooltipHtml += '<br>(' + event.duration + ')';
             }
             tooltipHtml += '</i></p>';
         }
